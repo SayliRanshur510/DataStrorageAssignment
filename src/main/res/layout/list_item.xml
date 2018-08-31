@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ingrammicro.inrans00.employeedetails.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="20dp"
+    android:textSize = "20dp"
+    android:background="#33FFF5"
+    android:textColor="#FF334F">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Job Title"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:fontStyle = "normal"
+        android:fontWeight = "200"
+        android:typeface="monospace"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:weightSum="2">
+        <TextView
+            android:id="@+id/Company_name"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:text="Company Name"
+            android:textSize="15dp"/>
+
+
+
+        <TextView
+            android:id="@+id/Package"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Package"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
